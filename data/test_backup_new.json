@@ -1,0 +1,58 @@
+[
+	{
+		"name": "company",
+		"row_array": [
+			{
+				"address": "California",
+				"age": 32,
+				"id": 1,
+				"name": "Paul",
+				"salary": 20000
+			},
+			{
+				"address": "Texas",
+				"age": 25,
+				"id": 2,
+				"name": "Allen",
+				"salary": 15000
+			},
+			{
+				"address": "Baltimore",
+				"age": 23,
+				"id": 3,
+				"name": "Teddy",
+				"salary": 20000
+			},
+			{
+				"address": "Richmond",
+				"age": 25,
+				"id": 4,
+				"name": "Mark",
+				"salary": 65000
+			},
+			{
+				"address": "Texas",
+				"age": 30,
+				"id": 5,
+				"name": "Robert",
+				"salary": 65000
+			},
+			{
+				"address": "Atlanta",
+				"age": 63,
+				"id": 6,
+				"name": "Julia",
+				"salary": 65000
+			},
+			{
+				"address": "New-York",
+				"age": 13,
+				"id": 7,
+				"name": "Amanda",
+				"salary": 65000
+			}
+		],
+		"sql": "CREATE TABLE company (id INTEGER PRIMARY KEY NOT NULL,name text NOT NULL,age INTEGER NOT NULL,address char(50),salary real)",
+		"type": "table"
+	}
+]
